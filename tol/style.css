@@ -19,11 +19,16 @@ body {
 
     background-color: var(--rblack);
     color: var(--lgy);
+
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .section {
     background-color: var(--wblack);
     color: var(--englishr);
+
+    margin: 0 10vh;
 }
 
 a, button {
