@@ -22,6 +22,8 @@ body {
 
     overflow-y: scroll;
     overflow-x: hidden;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .section {
@@ -29,7 +31,7 @@ body {
     color: var(--englishr);
 
     margin: 0 10vh;
-    padding: 5%;
+    padding: 1%;
 }
 
 a, button {
