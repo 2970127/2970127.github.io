@@ -29,6 +29,7 @@ body {
     color: var(--englishr);
 
     margin: 0 10vh;
+    padding: 5%;
 }
 
 a, button {
