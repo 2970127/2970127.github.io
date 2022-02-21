@@ -1,0 +1,35 @@
+:root {
+    /* shave */
+    --lgy: lightgoldenrodyellow;
+    --englishr: #AF3E4D;
+    --ocre: #D17B0F;
+    --wblack: #004346;
+    --rblack: #042A2B;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display:flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--rblack);
+    color: var(--lgy);
+}
+
+.section {
+    background-color: var(--wblack);
+    color: var(--englishr);
+}
+
+a, button {
+    color: var(--ocre);
+    transition: 1s;
+}
+:is(a, button) :hover {
+    opacity: 80%;
+}
